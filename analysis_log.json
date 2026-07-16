@@ -1,0 +1,475 @@
+[
+  {
+    "timestamp": "2026-07-15T15:25:02.205199Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {},
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-15T15:50:59.711501Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-15T16:33:33.583007Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-15T18:36:24.690798Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T00:39:15.875388Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T00:58:58.975703Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:02:19.512569Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:04:58.936949Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:07:34.190415Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:08:20.187227Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 0,
+    "market_signals_count": 0,
+    "trends_count": 0,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [],
+      "market_signals": [],
+      "trends": [],
+      "removed_claims": [],
+      "governance_violations": [],
+      "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 12212. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account'}]}}, 'user_id': 'user_3FL6Cym89ft0wWIuyjr2hVXP6a5'}"
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:11:57.626584Z",
+    "topic": "AI Coding Assistants",
+    "competitor_pricing_count": 3,
+    "product_updates_count": 0,
+    "market_signals_count": 2,
+    "trends_count": 2,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [
+        {
+          "company": "Cursor",
+          "detail": "Free subscription [$0-200/mo]",
+          "citation": {
+            "title": "Coding Agents Comparison",
+            "url": "https://artificialanalysis.ai/agents/coding"
+          }
+        },
+        {
+          "company": "Claude Code",
+          "detail": "Subscription [$20-200/mo]",
+          "citation": {
+            "title": "Coding Agents Comparison",
+            "url": "https://artificialanalysis.ai/agents/coding"
+          }
+        },
+        {
+          "company": "GitHub Copilot",
+          "detail": "Free subscription [$0-39/mo]",
+          "citation": {
+            "title": "Coding Agents Comparison",
+            "url": "https://artificialanalysis.ai/agents/coding"
+          }
+        }
+      ],
+      "product_updates": [],
+      "market_signals": [
+        {
+          "signal": "The global market for AI Code Tools is projected to grow from USD 4.3 billion in 2023 to USD 12.6 billion by 2028, at a CAGR of 24.0%.",
+          "citation": {
+            "title": "AI Code Tools Market Size, Growth Analysis & Forecast, ...",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/ai-code-tools-market-239940941.html"
+          }
+        },
+        {
+          "signal": "The generative AI coding assistants market size was valued at USD 18.08 million in 2023 and is projected to grow to USD 138.36 million by 2032, exhibiting a CAGR of 25.4%.",
+          "citation": {
+            "title": "Generative AI Coding Assistants Market Size & Report to 2032",
+            "url": "https://www.polarismarketresearch.com/industry-analysis/generative-ai-coding-assistants-market"
+          }
+        }
+      ],
+      "trends": [
+        {
+          "trend": "81% of developers surveyed use AI-powered coding assistants.",
+          "citation": {
+            "title": "Developers and AI Coding Assistant Trends",
+            "url": "https://codesignal.com/report-developers-and-ai-coding-assistant-trends"
+          }
+        },
+        {
+          "trend": "Generative AI tools have become essential in software development.",
+          "citation": {
+            "title": "Generative AI - Latest Product Launches & Partnerships by Top Companies | Intellizence",
+            "url": "https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships"
+          }
+        }
+      ],
+      "removed_claims": [],
+      "governance_violations": []
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:35:03.703405Z",
+    "topic": "Cybersecurity Platforms",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 2,
+    "market_signals_count": 2,
+    "trends_count": 2,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [
+        {
+          "company": "Cisco",
+          "update": "Cisco launched a new extended detection and response (XDR) platform that’s been built from the ground up, fusing network detection and response (NDR) and endpoint detection and response (EDR).",
+          "citation": {
+            "title": "The 10 Hottest Cybersecurity Tools And Products Of 2023 | CRN",
+            "url": "https://www.crn.com/news/security/the-10-hottest-cybersecurity-tools-and-products-of-2023"
+          }
+        },
+        {
+          "company": "Absolute Security",
+          "update": "Absolute Security unveils Lenovo ThinkShield TraceLock, giving customers the ability to maintain control, security, and resilience across offline PCs.",
+          "citation": {
+            "title": "Press Releases",
+            "url": "https://www.absolute.com/company/press-releases"
+          }
+        }
+      ],
+      "market_signals": [
+        {
+          "signal": "The global cybersecurity market size was valued at USD 219 billion in 2023 and is projected to reach USD 578.2 billion by 2033, growing at a CAGR of 10.4%.",
+          "citation": {
+            "title": "Cyber Security Market Growth | Key Industry Players [2032]",
+            "url": "https://www.fortunebusinessinsights.com/u-s-cyber-security-market-107436"
+          }
+        },
+        {
+          "signal": "Cybersecurity is becoming a central part of strategic planning for organizations due to increasing cyber threats and the need for digital transformation.",
+          "citation": {
+            "title": "Cybersecurity: market data & analysis",
+            "url": "https://live.handelsblatt.com/wp-content/uploads/2023/10/study_id124913_cybersecurity-report.pdf"
+          }
+        }
+      ],
+      "trends": [
+        {
+          "trend": "The cybersecurity industry is experiencing unprecedented growth, driven by the increasing frequency of cyber-attacks and rising data privacy concerns.",
+          "citation": {
+            "title": "Cyber Security Market Trends, Data Protection Demand and Forecast 2025 to 2035",
+            "url": "https://www.precedenceresearch.com/cyber-security-market"
+          }
+        },
+        {
+          "trend": "AI and machine learning are increasingly being integrated into cybersecurity solutions to enhance threat detection and response capabilities.",
+          "citation": {
+            "title": "The 10 Hottest Cybersecurity Tools And Products Of 2023 | CRN",
+            "url": "https://www.crn.com/news/security/the-10-hottest-cybersecurity-tools-and-products-of-2023"
+          }
+        }
+      ],
+      "removed_claims": [],
+      "governance_violations": []
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:40:02.160361Z",
+    "topic": "Cybersecurity Platforms",
+    "competitor_pricing_count": 1,
+    "product_updates_count": 2,
+    "market_signals_count": 2,
+    "trends_count": 2,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [
+        {
+          "company": "Center for Internet Security",
+          "detail": "Average SMB pricing is $4502 per year, while average enterprise pricing is $32340 per year.",
+          "citation": {
+            "title": "Actual Center for Internet Security Pricing 2026 | See How We Help You Pay Less",
+            "url": "https://www.spendhound.com/marketplace/center-for-internet-security-pricing"
+          }
+        }
+      ],
+      "product_updates": [
+        {
+          "company": "Cisco",
+          "update": "Cisco launched a new extended detection and response (XDR) platform that fuses network detection and response (NDR) and endpoint detection and response (EDR).",
+          "citation": {
+            "title": "The 10 Hottest Cybersecurity Tools And Products Of 2023 | CRN",
+            "url": "https://www.crn.com/news/security/the-10-hottest-cybersecurity-tools-and-products-of-2023"
+          }
+        },
+        {
+          "company": "Absolute Security",
+          "update": "Absolute Security unveils Lenovo ThinkShield TraceLock, enhancing control and security across offline PCs.",
+          "citation": {
+            "title": "Press Releases",
+            "url": "https://www.absolute.com/company/press-releases"
+          }
+        }
+      ],
+      "market_signals": [
+        {
+          "signal": "The global cybersecurity market is projected to grow from USD 248.28 billion in 2026 to USD 699.39 billion by 2034, exhibiting a CAGR of 13.8%.",
+          "citation": {
+            "title": "Cybersecurity Market Size, Share, Analysis | Global Report ...",
+            "url": "https://www.fortunebusinessinsights.com/industry-reports/cyber-security-market-101165"
+          }
+        },
+        {
+          "signal": "The U.S. cybersecurity market is projected to grow from USD 73.13 billion in 2025 to USD 166.73 billion by 2032, exhibiting a CAGR of 12.5%.",
+          "citation": {
+            "title": "U.S. Cyber Security Market Growth | Key Industry Players [2032]",
+            "url": "https://www.fortunebusinessinsights.com/u-s-cyber-security-market-107436"
+          }
+        }
+      ],
+      "trends": [
+        {
+          "trend": "The cybersecurity industry is experiencing unprecedented growth, driven by increasing cyber threats and the need for advanced security solutions.",
+          "citation": {
+            "title": "Cybersecurity Market Trends, Data Protection Demand and Forecast 2025 to 2035",
+            "url": "https://www.precedenceresearch.com/cyber-security-market"
+          }
+        },
+        {
+          "trend": "AI and machine learning are becoming integral to cybersecurity tools, enhancing threat detection and response capabilities.",
+          "citation": {
+            "title": "The 10 Hottest Cybersecurity Tools And Products Of 2023 | CRN",
+            "url": "https://www.crn.com/news/security/the-10-hottest-cybersecurity-tools-and-products-of-2023"
+          }
+        }
+      ],
+      "removed_claims": [],
+      "governance_violations": []
+    },
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:47:16.707354Z",
+    "topic": "Cybersecurity Platforms",
+    "competitor_pricing_count": 0,
+    "product_updates_count": 2,
+    "market_signals_count": 2,
+    "trends_count": 2,
+    "removed_claims_count": 0,
+    "governance_violations_count": 0,
+    "analysis": {
+      "competitor_pricing": [],
+      "product_updates": [
+        {
+          "company": "Cisco",
+          "update": "Cisco launched a new extended detection and response (XDR) platform that’s been built from the ground up, fusing network detection and response (NDR) and endpoint detection and response (EDR).",
+          "citation": {
+            "title": "The 10 Hottest Cybersecurity Tools And Products Of 2023 | CRN",
+            "url": "https://www.crn.com/news/security/the-10-hottest-cybersecurity-tools-and-products-of-2023"
+          }
+        },
+        {
+          "company": "Absolute Security",
+          "update": "Absolute Security unveils Lenovo ThinkShield TraceLock, giving customers the ability to maintain control, security, and resilience across offline PCs.",
+          "citation": {
+            "title": "Press Releases",
+            "url": "https://www.absolute.com/company/press-releases"
+          }
+        }
+      ],
+      "market_signals": [
+        {
+          "signal": "The global cybersecurity market size was valued at USD 219 billion in 2023 and is projected to reach USD 578.2 billion by 2033, growing at a CAGR of 10.4%.",
+          "citation": {
+            "title": "Cyber Security Market Growth | Key Industry Players [2032]",
+            "url": "https://www.fortunebusinessinsights.com/u-s-cyber-security-market-107436"
+          }
+        },
+        {
+          "signal": "Cybersecurity is becoming a central concern for organizations, with increasing rates of cyberattacks and a growing demand for advanced security solutions.",
+          "citation": {
+            "title": "Cybersecurity Market Trends, Data Protection Demand and Forecast 2025 to 2035",
+            "url": "https://www.precedenceresearch.com/cyber-security-market"
+          }
+        }
+      ],
+      "trends": [
+        {
+          "trend": "The cybersecurity industry is experiencing unprecedented growth, driven by the increasing frequency of cyber-attacks and rising data privacy concerns.",
+          "citation": {
+            "title": "Cyber Security Market Size, Share & Industry Growth - 2033",
+            "url": "https://www.alliedmarketresearch.com/cyber-security-market"
+          }
+        },
+        {
+          "trend": "AI and machine learning are becoming integral to cybersecurity solutions, enhancing the ability to detect and respond to threats.",
+          "citation": {
+            "title": "Top 10 Cybersecurity Titans Shaping the Future with AI and Platform Power",
+            "url": "https://www.youtube.com/watch?v=yvOZM04zpnI"
+          }
+        }
+      ],
+      "removed_claims": [],
+      "governance_violations": []
+    },
+    "governance_flags": []
+  }
+]

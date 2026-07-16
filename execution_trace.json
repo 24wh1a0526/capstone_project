@@ -1,0 +1,619 @@
+[
+  {
+    "timestamp": "2026-07-15T15:25:02.281113Z",
+    "topic": "AI Coding Assistants",
+    "status": "error",
+    "step_count": 2,
+    "elapsed_seconds": 0.0,
+    "errors": [
+      "Researcher error: tavily-python is not installed. Run: pip install tavily-python"
+    ],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "error": "tavily-python is not installed. Run: pip install tavily-python"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 0,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-15T15:50:59.820152Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 31.856658935546875,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-15T16:33:33.661400Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 30.24959897994995,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-15T18:36:24.762264Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 26.308040380477905,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T00:39:15.970985Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 44.56353235244751,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T00:58:59.210813Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 23.42938995361328,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:02:19.557174Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 10.536249876022339,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:04:58.983679Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 10.161958456039429,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:07:34.232606Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 7.060676336288452,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:08:20.237250Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 10.40023159980774,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 5 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 0, Signals: 0, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 1104 chars, 0 citations"
+      }
+    ],
+    "search_queries": [
+      "AI Coding Assistants pricing plans 2024",
+      "AI Coding Assistants competitors comparison",
+      "AI Coding Assistants product updates news",
+      "AI Coding Assistants market trends",
+      "AI Coding Assistants key players analysis"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:11:57.687835Z",
+    "topic": "AI Coding Assistants",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 38.87727952003479,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 7 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 3, Updates: 0, Signals: 2, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 4025 chars, 7 citations"
+      }
+    ],
+    "search_queries": [
+      "AI coding assistants competitor pricing comparison 2023",
+      "recent product launches AI coding tools 2023",
+      "market trends in AI coding assistants 2023",
+      "key players in AI coding assistant market and their strategies 2023",
+      "feature updates in AI coding assistants 2023",
+      "customer adoption rates of AI coding assistants 2023",
+      "impact of AI coding assistants on software development industry 2023"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:35:03.786273Z",
+    "topic": "Cybersecurity Platforms",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 86.54147481918335,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 8 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 2, Signals: 2, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 3583 chars, 6 citations"
+      }
+    ],
+    "search_queries": [
+      "current pricing models for leading cybersecurity platforms 2023",
+      "recent product launches in cybersecurity software 2023",
+      "latest feature updates from top cybersecurity companies 2023",
+      "market trends in cybersecurity solutions 2023",
+      "strategic partnerships among key players in the cybersecurity industry 2023",
+      "analysis of competitive positioning of major cybersecurity platforms 2023",
+      "emerging technologies in cybersecurity and their market impact 2023",
+      "regulatory changes affecting cybersecurity platforms in 2023"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:40:02.205387Z",
+    "topic": "Cybersecurity Platforms",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 26.98563575744629,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 8 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 1, Updates: 2, Signals: 2, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 4283 chars, 7 citations"
+      }
+    ],
+    "search_queries": [
+      "current pricing plans for leading cybersecurity platforms 2023",
+      "recent product launches in cybersecurity software 2023",
+      "latest feature updates from top cybersecurity companies 2023",
+      "market trends in cybersecurity solutions 2023",
+      "strategic partnerships among key players in the cybersecurity industry 2023",
+      "emerging technologies in cybersecurity platforms 2023",
+      "competitive analysis of major cybersecurity vendors 2023",
+      "customer satisfaction ratings for cybersecurity platforms 2023"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  },
+  {
+    "timestamp": "2026-07-16T01:47:16.795534Z",
+    "topic": "Cybersecurity Platforms",
+    "status": "completed",
+    "step_count": 4,
+    "elapsed_seconds": 23.427298069000244,
+    "errors": [],
+    "agent_trace": [
+      {
+        "step": 1,
+        "agent": "Supervisor",
+        "action": "planning",
+        "result": "Generated 8 queries"
+      },
+      {
+        "step": 2,
+        "agent": "Researcher",
+        "action": "web_search",
+        "result": "20 sources, 0 failures"
+      },
+      {
+        "step": 3,
+        "agent": "Analyst",
+        "action": "analysis",
+        "result": "Pricing: 0, Updates: 2, Signals: 2, Removed: 0, Violations: 0"
+      },
+      {
+        "step": 4,
+        "agent": "Writer",
+        "action": "report_generation",
+        "result": "Report: 4415 chars, 6 citations"
+      }
+    ],
+    "search_queries": [
+      "current pricing models for leading cybersecurity platforms 2023",
+      "recent product launches in cybersecurity software 2023",
+      "latest feature updates from top cybersecurity companies 2023",
+      "market trends in cybersecurity solutions 2023",
+      "strategic partnerships among key players in the cybersecurity industry 2023",
+      "emerging technologies in cybersecurity platforms 2023",
+      "competitive analysis of cybersecurity service providers 2023",
+      "customer satisfaction trends in cybersecurity platforms 2023"
+    ],
+    "total_sources": 20,
+    "failed_sources_count": 0,
+    "governance_flags": []
+  }
+]
