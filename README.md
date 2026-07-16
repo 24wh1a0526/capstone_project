@@ -378,7 +378,7 @@ VECTOR_STORE=chroma   # Persistent — requires chromadb
 
 ## 📝 License
 
-This project was created as part of the AI Engineering Capstone Program.
+This project was done as part of the Agentic AI  Program.
 
 ---
 
