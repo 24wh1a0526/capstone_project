@@ -554,21 +554,41 @@ _examples = [
     "Healthcare AI Platforms",
 ]
 
+# Single source of truth for the topic lives in session_state under
+# "topic_value". The text input is bound directly to it (key=). The
+# "Quick pick" dropdown never controls the topic itself — when the user
+# picks an example, a callback copies that value INTO topic_value and then
+# resets the dropdown back to its placeholder. Without this reset, Streamlit
+# keeps the dropdown's last selection across reruns and it would silently
+# override anything typed afterward — which was the original bug.
+if "topic_value" not in st.session_state:
+    st.session_state.topic_value = ""
+
+
+def _apply_quick_pick():
+    if st.session_state.quick_pick != "Quick examples...":
+        st.session_state.topic_value = st.session_state.quick_pick
+        st.session_state.quick_pick = "Quick examples..."  # reset so it can't override again
+
+
 _col_input, _col_pick = st.columns([3, 1], gap="medium")
 with _col_input:
-    topic = st.text_input(
+    st.text_input(
         "topic_input",
+        key="topic_value",
         placeholder="e.g.  AI Coding Assistants, Cloud Computing Platforms...",
         label_visibility="collapsed",
     )
 with _col_pick:
-    _pick = st.selectbox(
+    st.selectbox(
         "Quick pick",
         ["Quick examples..."] + _examples,
+        key="quick_pick",
+        on_change=_apply_quick_pick,
         label_visibility="collapsed",
     )
-    if _pick != "Quick examples...":
-        topic = _pick
+
+topic = st.session_state.topic_value
 
 st.markdown("</div>", unsafe_allow_html=True)
 
@@ -657,6 +677,14 @@ def _render_report(sections: dict, full_report: str, topic: str):
     )
     st.markdown(exec_body or "*No summary available.*")
     st.markdown("<br>", unsafe_allow_html=True)
+
+    # "What Changed Since Last Briefing" — populated by the Analyst/Writer
+    # when a prior briefing exists for this exact topic. Rendered here so it
+    # doesn't just live invisibly inside the raw report text.
+    changes_body = _section_content(sections, "What Changed", "Since Last Briefing")
+    if changes_body:
+        _card("&#128260;", "What Changed Since Last Briefing", changes_body)
+        st.markdown("<br>", unsafe_allow_html=True)
 
     col_l, col_r = st.columns(2, gap="large")
     with col_l:

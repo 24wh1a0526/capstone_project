@@ -28,6 +28,7 @@ from agents.analyst import AnalystAgent
 from agents.writer import WriterAgent
 from tools.rag import RAGTool
 from tools.web_search import SourceDocument
+from tools.history import HistoryStore
 
 load_dotenv()
 
@@ -52,6 +53,7 @@ class WorkflowState(TypedDict):
 
     # Analysis
     analysis: Dict[str, Any]
+    previous_analysis: Optional[Dict[str, Any]]  # from the last briefing on this topic, if any
 
     # Report
     report: str
@@ -160,11 +162,21 @@ def analyze_node(state: WorkflowState) -> WorkflowState:
     try:
         analyst = AnalystAgent()
         rag = RAGTool()
+        history = HistoryStore()
 
         # Reconstruct lightweight source objects from serialised dicts
         docs = [_dict_to_source(d) for d in state["sources"]]
 
-        analysis = analyst.analyze(docs, state["topic"], rag_tool=rag)
+        # Look up the most recent prior briefing for this exact topic, if any,
+        # so the Analyst can flag what's new vs. what's already been reported.
+        previous_record = history.get_latest(state["topic"])
+        previous_analysis = previous_record.get("analysis") if previous_record else None
+        if previous_record:
+            print(f"[Workflow] Found a prior briefing from {previous_record.get('generated_at')} — tracking changes.")
+        else:
+            print("[Workflow] No prior briefing found for this topic — first run.")
+
+        analysis = analyst.analyze(docs, state["topic"], rag_tool=rag, previous_analysis=previous_analysis)
 
         # The Analyst catches its own LLM-call failures and returns an
         # empty-but-valid structure with an "error" key rather than raising —
@@ -190,6 +202,7 @@ def analyze_node(state: WorkflowState) -> WorkflowState:
         return {
             **state,
             "analysis": analysis,
+            "previous_analysis": previous_analysis,
             "governance_flags": governance_flags,
             "step_count": step,
             "errors": errors,
@@ -218,6 +231,7 @@ def write_node(state: WorkflowState) -> WorkflowState:
 
     try:
         writer = WriterAgent()
+        history = HistoryStore()
         elapsed = time.time() - state["start_time"]
 
         metadata = {
@@ -236,6 +250,14 @@ def write_node(state: WorkflowState) -> WorkflowState:
 
         citation_count = writer.count_citations(report)
         trace[-1]["result"] = f"Report: {len(report)} chars, {citation_count} citations"
+
+        # Persist this run so future runs on the same topic can diff against it.
+        history.save(
+            topic=state["topic"],
+            report=report,
+            analysis=state["analysis"],
+            metadata=metadata,
+        )
 
         return {
             **state,
@@ -343,6 +365,7 @@ def run_workflow(topic: str) -> Dict[str, Any]:
         "sources": [],
         "failed_sources": [],
         "analysis": {},
+        "previous_analysis": None,
         "report": "",
         "governance_flags": [],
         "step_count": 0,
